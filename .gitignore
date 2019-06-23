@@ -1,0 +1,10 @@
+.idea/
+node_modules
+.sublime-gulp.cache
+gulpfile.js
+package-lock.json
+*.exe
+*.cfg
+*.psd
+*.rar
+*.zip

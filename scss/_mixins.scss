@@ -1,0 +1,10 @@
+@mixin my_pos ($top: 50%, $left: 50%, $tx:-50%, $ty:-50%){
+	position: absolute;
+	top: $top;
+	left:$left;
+	transform: translate($tx, $ty)
+}
+
+@mixin tr($property, $time: ease-in) {
+	transition: $property $time linear;
+}
